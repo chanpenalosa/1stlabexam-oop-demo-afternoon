@@ -9,7 +9,7 @@ namespace FirstLabExamOOP.Models
 {
     public abstract class Employee : Person
     {
-
+        protected int IDNumber;
         public abstract decimal CalculateSalary();
     }
 }
